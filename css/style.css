@@ -1,0 +1,245 @@
+body {
+  font-family: 'Montserrat',sans-serif;
+  margin: 0px;
+}
+main {
+  margin: 0px 90px;
+}
+
+header{
+  height: 72px;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+} 
+
+nav {
+  height: 72px;
+}
+
+nav figure {
+  width: 110px;
+  height: 58px;
+  margin: 0px;
+  display: inline-block;
+}
+
+nav ul {
+  height: 72px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  position: absolute;
+  
+}
+
+ul li {
+  display: inline-block;
+  padding: 12px;
+  margin: 16px;
+
+}
+
+form{
+  width: 400px;
+  display: inline-block;
+}
+
+ul li a {
+  color:#073e3e;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+form label {
+  font-weight: 600;
+  color: #073e3e;
+  display: inline-block;
+  margin: 24px 12px 6px 0px;
+}
+
+form input {
+  width: 360px;
+  height: 45px ;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: gray;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0px 12px;
+}
+
+form select {
+  width: 360px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: gray;
+  padding: 0px 12px;
+  display: inline-block;
+}
+
+textarea {
+  width: 360px;
+  height: 110px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: gray;
+  margin: 0px;
+  display: inline-block;
+}
+
+form input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+  border-color: #073e3e;
+  display: inline;
+  margin: 16px 12px;
+}
+
+form label[for=aceptar] {
+  display: inline-block;
+}
+
+input[type=reset], input[type=submit] {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  width: 168px;
+  height: 45px;
+  background-color: #073e3e;
+  margin: 12px 24px 12px 0px;
+  padding: 0px;
+  display: inline;
+}
+
+fieldset {
+  width: 360;
+  height: 45px;
+  border-style: none;
+  padding: 0px;
+  margin: 12px 0px;
+}
+
+footer {
+  color: white;
+  background-color: #073e3e;
+}
+
+tr th {
+  font-weight: 600;
+  color: #073e3e;
+}
+
+tr td {
+  color: #073e3e;
+}
+
+
+.portada {
+  width: 1200px;
+  height: 360px;
+  background-image: url("../images/Placeholder1200x360.png") ;
+}
+
+.titlePortada {
+  font-weight: 700;
+  color: #073e3e;
+  font-size: 60px;
+}
+
+
+.titlePage {
+  font-weight: 700;
+  color: #073e3e;
+  font-size: 46px;
+}
+
+.titleSection {
+  font-weight: 600;
+  font-size: 36px;
+  color: #073e3e;
+}
+
+.titleArticle {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  padding: 12px 12px 6px 12px;
+  margin: 0px;
+}
+
+.parrafo {
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  padding: 6px 12px 6px 12px;
+  margin: 0px;
+}
+
+.cardNovedades {
+  width: 360px;
+  height: 360px;
+  margin: 12px;
+  border-style: solid;
+  border-color: #073e3e;
+  border-width: 2px;
+  display: inline-block;
+}
+
+.cardTopLeidos {
+  width: 550px;
+  height: 150px;
+  margin: 12px;
+  padding: 0px;
+  border-style: solid;
+  border-color: #073e3e;
+  border-width: 2px;
+}
+
+.cardTopLeidos figure {
+  display: inline-block;
+  margin: 15px;
+}
+
+.topLeidosText {
+  width: 390px;
+  display: inline-block;
+}
+
+.parrafoSection {
+  width: 600px;
+  color: #073e3e;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.timeArticle {
+  font-weight: 300;
+  font-size: 14px;
+  color: #073e3e;
+}
+
+.verMas {
+  font-weight: 600;
+  font-size: 14px;
+  height: 38px; 
+  width: 120px;
+  background-color:#073e3e;
+  color: white;
+  box-sizing: border-box;
+  margin: 0px 12px 12px 228px;
+  text-align: center;
+  padding: 12px;
+}
+
+.acomodarDerecha {
+  width: 500px;
+  margin: 0px;
+  display: inline-block;
+}
