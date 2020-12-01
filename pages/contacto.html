@@ -24,35 +24,37 @@
   </header>
   <main>
     <h1 class="titlePage">Contacto</h1>
-    <section class="acomodarSection">
-      <form>
-        <label for="nombre">Nombre</label> 
-        <input type="text" name="nombre">
-        <label for="e-mail">E-mail</label>
-        <input type="text" name="e-mail">
-        <label for="asunto">Asunto</label>
-        <select name="asunto">
-          <option value="trabajo">Trabaja con nosotros</option>
-          <option value="sarasa1">anuncio publicitario</option>
-          <option value="sarasa2">escribir un articulo</option>
-        </select>
-        <label for="mensaje">Mensaje</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="checkbox" name="aceptar" value="acepta">
-        <label for="aceptar">acepto recibir notificaciones</label>
-        <fieldset>
-          <input type="reset" value="Limpiar">
-          <input type="submit" value="Enviar">
-        </fieldset>
-      </form>
-    </section>
-    <section class="acomodarSection">      
-      <img src="../images/Placeholder400x200.png" alt="mapa">
-      <p class="parrafoSection">
-        Dirección:
-        Nihil possimus a amet nam.
-      </p>
-    </section>
+    <div class="contenerPagina">
+      <section>
+        <form>
+          <label for="nombre">Nombre</label> 
+          <input type="text" name="nombre">
+          <label for="e-mail">E-mail</label>
+          <input type="text" name="e-mail">
+          <label for="asunto">Asunto</label>
+          <select name="asunto">
+            <option value="trabajo">Trabaja con nosotros</option>
+            <option value="sarasa1">anuncio publicitario</option>
+            <option value="sarasa2">escribir un articulo</option>
+          </select>
+          <label for="mensaje">Mensaje</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <input type="checkbox" name="aceptar" value="acepta">
+          <label for="aceptar">acepto recibir notificaciones</label>
+          <fieldset>
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar">
+          </fieldset>
+        </form>
+      </section>
+      <section class="cajasContact">
+        <img class="encuadreImagen" src="../images/Placeholder400x200.png" alt="mapa">
+        <p class="textContact">
+          Dirección:
+          Nihil possimus a amet nam.
+        </p>
+      </section>
+    </div>  
   </main>
   <footer>
     <img src="../images/PlaceLogo.png" alt="Logo">
