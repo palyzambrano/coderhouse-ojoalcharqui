@@ -332,3 +332,38 @@ display: inline-block;
   border-color: #073e3e;
   border-width: 4px;
 }
+
+#anuncios{
+  width: 400px;
+  height: 600px ;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(4,88px);
+  grid-template-rows: repeat(6,88px);
+  grid-gap: 24px;
+  grid-template-areas: 
+    "i1 i1 i3 i3"
+    "i1 i1 i3 i3"
+    "i2 i2 i3 i3"
+    "i2 i2 i3 i3"
+    "i4 i4 i4 i4"
+    "i4 i4 i4 i4"
+    "i4 i4 i4 i4";
+}
+
+#a1 {
+  grid-area: i1;
+}
+
+#a2 {
+  grid-area: i2;
+}
+
+#a3 {
+  grid-area: i3;
+}
+
+#a4 {
+  grid-area: i4;
+}
