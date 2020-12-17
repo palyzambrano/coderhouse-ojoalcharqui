@@ -15,6 +15,9 @@
           <img src="../images/PlaceLogo.png" alt="Logo">
         </figure>
       </a>
+      <button type="button" id="responsive-menu">
+        <span class="hamburger-icon"></span>
+      </button>
       <ul>
         <li><a href="./columnas.html">Columnas</a></li>
         <li><a href="./eventos.html">Eventos</a></li>
@@ -26,42 +29,46 @@
   <main>
     <h1 class="titlePage">Eventos</h1>
     <div class="contenerPagina">
-      <table border="1">
-        <tr>
-          <th>Evento</th>
-          <th>Dirección</th>
-          <th>Fecha</th>
-          <th>Hora</th>
-          <th>Organiza</th>
-        </tr>
-        <tr>
-          <td>Workshop</td>
-          <td>CABA</td>
-          <td><time datetime="2020-09-20">20 Agosto 2020</time></td>
-          <td><time datetime="18:30">18:30</time></td>
-          <td>ojoalcharqui</td>
-        </tr>
-        <tr>
-          <td>Meetup</td>
-          <td>Online</td>
-          <td><time datetime="2021-07-24">24 Julio 2021</time></td>
-          <td><time datetime="20:30">20:30</time></td>
-          <td>ojoalcharqui</td>
-        </tr>
-        <tr>
-          <td>webinar</td>
-          <td>Online</td>
-          <td><time datetime="2021-07-24">24 Julio 2021</time></td>
-          <td><time datetime="20:30">20:30</time></td>
-          <td>ojoalcharqui</td>
-        </tr>
-        <tr>
-          <td>Meetup</td>
-          <td>Online</td>
-          <td><time datetime="2021-07-24">24 Julio 2021</time></td>
-          <td><time datetime="20:30">20:30</time></td>
-          <td>ojoalcharqui</td>
-        </tr>
+      <table class="table" id="eventos">
+        <thead>
+          <tr>
+            <th scope="col">Evento</th>
+            <th scope="col">Dirección</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Hora</th>
+            <th scope="col">Organiza</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Workshop</td>
+            <td>CABA</td>
+            <td><time datetime="2020-09-20">20 Agosto 2020</time></td>
+            <td><time datetime="18:30">18:30</time></td>
+            <td>ojoalcharqui</td>
+          </tr>
+          <tr>
+            <td>Meetup</td>
+            <td>Online</td>
+            <td><time datetime="2021-07-24">24 Julio 2021</time></td>
+            <td><time datetime="20:30">20:30</time></td>
+            <td>ojoalcharqui</td>
+          </tr>
+          <tr>
+            <td>webinar</td>
+            <td>Online</td>
+            <td><time datetime="2021-07-24">24 Julio 2021</time></td>
+            <td><time datetime="20:30">20:30</time></td>
+            <td>ojoalcharqui</td>
+          </tr>
+          <tr>
+            <td>Meetup</td>
+            <td>Online</td>
+            <td><time datetime="2021-07-24">24 Julio 2021</time></td>
+            <td><time datetime="20:30">20:30</time></td>
+            <td>ojoalcharqui</td>
+          </tr>
+        </tbody>
       </table>
       <aside id="anuncios">
         <img id="a1" class="bordeImagen" src="../images/Placeholder200x200.png" alt="Publicidad">
