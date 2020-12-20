@@ -44,6 +44,27 @@ nav ul {
   flex-direction: row;  
 }
 
+.height-auto {
+  height: auto;
+}
+
+.navigator li {
+  display: block;
+  width: 100%;
+  clear: both;
+  font-weight: 400;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.navigator li a:hover {
+  color: #ffffff;
+  background-color: #073e3e;
+}
+
 ul li {
   padding: 12px;
   margin: 16px;
@@ -435,4 +456,10 @@ display: inline-block;
   footer img {
     margin-bottom: 1rem;
   }
+
+  .contenedorColumnas {
+    justify-content: center;
+    padding: 0px;
+  }
+
 }
