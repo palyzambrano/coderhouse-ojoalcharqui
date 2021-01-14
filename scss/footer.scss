@@ -1,0 +1,22 @@
+footer {
+  width: 100%;
+  color: $white;
+  background-color: $colorPrimario;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    li {
+      padding: 12px;
+      margin: 16px;
+      display: inline-block;
+
+      a {
+        @include text-bold();
+
+        color: $colorPrimario;
+        font-size: 14px;
+        text-decoration: none;
+      }
+    }
+}
