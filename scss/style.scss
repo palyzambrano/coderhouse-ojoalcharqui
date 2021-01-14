@@ -6,9 +6,12 @@
 @import './variables.scss';
 
 // Paginas
+@import './acerca.scss';
+@import './contacto.scss';
+@import './eventos.scss';
+@import './footer.scss';
 @import './header.scss';
 @import './home.scss';
-@import './acerca.scss';
 
 // General
 .height-auto {
@@ -198,39 +201,6 @@ figure {
   margin-bottom: 55px;
 }
 
-.cardNovedades {
-  width: 360px;
-  height: 360px;
-  margin: 12px;
-  background-color: #ffffff;
-  border-radius: 20px;
-  box-shadow: 0px 3px 10px #00000038;
-  display: inline-block;
-}
-
-.cardTopLeidos {
-  width: 550px;
-  height: 150px;
-  margin: 12px 0px;
-  padding: 0px;
-  border-radius: 20px;
-  box-shadow: 0px 3px 10px #00000038;
-}
-
-.cardNovedades img {
-  border-radius: 20px 20px 0px 0px;
-}
- 
-.cardTopLeidos figure {
-  display: inline-block;
-  margin: 15px;
-}
-
-.topLeidosText {
-  width: 380px;
-  height: 150px;
-  display: inline-block;
-}
 
 .parrafoSection {
   width: 600px;
@@ -240,37 +210,6 @@ figure {
   font-size: 16px;
   line-height: 1.5rem;
   display: inline-block;
-}
-
-.timeArticle {
-  font-weight: 300;
-  font-size: 14px;
-  text-align: right;
-  color: #073e3e;
-  display: block;
-}
-.cardNovedades img {
-  border-radius: 20px 20px 0px 0px;
-}
-.verMas {
-  font-weight: 600;
-  font-size: 14px;
-  height: 38px; 
-  width: 120px;
-  background-color:#073e3e;
-  border-radius: 18px;
-  color: white;
-  box-sizing: border-box;
-  margin: 0px 17px 16px 228px;
-  text-align: center;
-  padding: 12px;
-}
-
-.contenedorTop {
-  width:600px ;
-  height: 870px;
-  display: flex;
-  flex-direction: column; 
 }
 
 .contenerPagina {
@@ -298,11 +237,6 @@ line-height: 1.5rem;
 display: inline-block;
 }
 
-.cajasContact {
-  width: 450px;
-  display:inline-block;
-}
-
 .contenedorColumnas{
   display: flex;
   flex-wrap: wrap;
@@ -320,45 +254,6 @@ display: inline-block;
   border-style: solid;
   border-color: #073e3e;
   border-width: 4px;
-}
-
-#anuncios{
-  width: 400px;
-  height: 600px ;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  grid-template-columns: repeat(4,88px);
-  grid-template-rows: repeat(6,88px);
-  grid-gap: 24px;
-  grid-template-areas: 
-    "i1 i1 i3 i3"
-    "i1 i1 i3 i3"
-    "i2 i2 i3 i3"
-    "i2 i2 i3 i3"
-    "i4 i4 i4 i4"
-    "i4 i4 i4 i4"
-    "i4 i4 i4 i4";
-}
-
-#a1 {
-  grid-area: i1;
-}
-
-#a2 {
-  grid-area: i2;
-}
-
-#a3 {
-  grid-area: i3;
-}
-
-#a4 {
-  grid-area: i4;
-}
-
-#eventos {
-  margin-right: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -383,10 +278,6 @@ display: inline-block;
     overflow-x: auto;
     margin-right: 0;
     max-width: 300px;
-  }
-
-  #anuncios {
-    width: auto;
   }
 
   #responsive-menu {
@@ -426,7 +317,7 @@ display: inline-block;
   .contenedorNovedades {
     width: auto;
     }
- 
+
   .verMas {
     margin:12px;
   }

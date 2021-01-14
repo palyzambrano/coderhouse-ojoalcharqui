@@ -1,0 +1,49 @@
+#eventos-seccion {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  #eventos {
+    margin-right: 2rem;
+  }
+  
+  #anuncios-valla {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .anuncios {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      width: 360px;
+      margin: 0 1rem;
+      grid-gap: 24px;
+      grid-template-areas: 
+        "i1 i1 i3 i3"
+        "i1 i1 i3 i3"
+        "i2 i2 i3 i3"
+        "i2 i2 i3 i3";
+
+      #a1 {
+        grid-area: i1;
+      }
+
+      #a2 {
+        grid-area: i2;
+      }
+
+      #a3 {
+        grid-area: i3;
+      }
+
+      &.reverse {
+        grid-template-areas: 
+          "i3 i3 i1 i1"
+          "i3 i3 i1 i1"
+          "i3 i3 i2 i2"
+          "i3 i3 i2 i2";
+      }
+    }
+  }
+}
