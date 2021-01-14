@@ -1,13 +1,16 @@
+// Externos
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,600;1,300;1,600&family=Montserrat:wght@300;400;600;700&display=swap');
 
-$colorPrimario: #073e3e;
-$gray: #808080;
-$white: #FFFFFF;
+// Reutilizables
+@import './mixins.scss';
+@import './variables.scss';
 
-@mixin text-bold {
-  font-weight: 600;
-}
+// Paginas
+@import './header.scss';
+@import './home.scss';
+@import './acerca.scss';
 
+// General
 .height-auto {
   height: auto;
 }
@@ -43,54 +46,6 @@ ul {
     margin: 16px;
     display: inline-block;
 
-    a {
-      @include text-bold();
-
-      color: $colorPrimario;
-      font-size: 14px;
-      text-decoration: none;
-    }
-  }
-}
-
-header {
-  height: 72px;
-  width: 100%;
-  background-color: white;
-  position: sticky;
-  top: 0px;
-  display: flex;
-
-  nav {
-    height: 72px;
-    width: 100%;
-    box-shadow: 0px 3px 6px #00000029;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    figure {
-      width: 110px;
-      height: 58px;
-      margin: 0px;
-      display: flex;
-    }
-  
-    ul {
-      height: 72px;
-      list-style-type: none;
-      padding: 0px;
-      margin: 0px;
-      display: flex;
-      flex-direction: row;  
-    }
-  
-    li {
-      padding: 12px;
-      margin: 16px;
-      display: inline-block;
-    }
-  
     a {
       @include text-bold();
 
@@ -216,21 +171,6 @@ figure {
   border: none;
 }
 
-.portada {
-  width: 1200px;
-  height: 360px;
-  border-radius: 20px;
-  background-image: url("../images/Placeholder1200x360.png") ;
-}
-
-.titlePortada {
-  padding: 86px 55px 86px 763px;
-  font-weight: 700;
-  text-align: right;
-  color: #073e3e;
-  font-size: 60px;
-}
-
 .titlePage {
   font-weight: 700;
   color: #073e3e;
@@ -240,20 +180,6 @@ figure {
   margin-bottom: 55px;
 }
 
-.titleSection {
-  font-weight: 600;
-  font-size: 36px;
-  color: #073e3e;
-}
-
-.titleArticle {
-  font-weight: 600;
-  font-size: 16px;
-  color: #000000;
-  padding: 12px 12px 6px 12px;
-  margin: 0px;
-}
-
 .parrafo {
   font-family: 'Cormorant Infant', serif;
   font-weight: 300;
@@ -261,6 +187,15 @@ figure {
   color: #000000;
   padding: 6px 12px 0px 12px;
   margin: 0px;
+}
+
+.titlePage {
+  font-weight: 700;
+  color: #073e3e;
+  font-size: 46px;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 
 .cardNovedades {
@@ -314,7 +249,9 @@ figure {
   color: #073e3e;
   display: block;
 }
-
+.cardNovedades img {
+  border-radius: 20px 20px 0px 0px;
+}
 .verMas {
   font-weight: 600;
   font-size: 14px;
@@ -327,12 +264,6 @@ figure {
   margin: 0px 17px 16px 228px;
   text-align: center;
   padding: 12px;
-}
-
-.contenedorNovedades {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
 }
 
 .contenedorTop {
@@ -495,14 +426,6 @@ display: inline-block;
   .contenedorNovedades {
     width: auto;
     }
-
-  .cardNovedades {
-    width: 300px;
-    height: 320px;
-  }
-  .cardNovedades img {
-    width: 300px;
-  }
  
   .verMas {
     margin:12px;

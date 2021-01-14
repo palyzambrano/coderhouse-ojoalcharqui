@@ -1,0 +1,57 @@
+.portada {
+  width: 1200px;
+  height: 360px;
+  border-radius: 20px;
+  background-image: url("../images/Placeholder1200x360.png") ;
+
+  .titlePortada {
+    padding: 86px 55px 86px 763px;
+    font-weight: 700;
+    text-align: right;
+    color: #073e3e;
+    font-size: 60px;
+  }
+}
+
+.titleSection {
+  font-weight: 600;
+  font-size: 36px;
+  color: #073e3e;
+}
+
+.contenedorNovedades {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .cardNovedades {
+    width: 300px;
+    height: 320px;
+
+    .titleArticle {
+      font-weight: 600;
+      font-size: 16px;
+      color: #000000;
+      padding: 12px 12px 6px 12px;
+      margin: 0px;
+    }
+
+    img {
+      width: 300px;
+    }
+
+    .verMas {
+      font-weight: 600;
+      font-size: 14px;
+      height: 38px; 
+      width: 120px;
+      background-color:#073e3e;
+      border-radius: 18px;
+      color: white;
+      box-sizing: border-box;
+      margin: 0px 17px 16px 228px;
+      text-align: center;
+      padding: 12px;
+    }
+  }
+}
