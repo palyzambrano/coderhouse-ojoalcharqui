@@ -5,6 +5,13 @@ footer {
   display: flex;
   justify-content: space-between;
 
+  figure {
+    width: 100px;
+    height: 56px;
+    margin: 0px;
+    display: flex;
+  }
+
   ul {
     li {
       padding: 12px;

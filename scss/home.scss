@@ -3,6 +3,8 @@
   height: 360px;
   border-radius: 20px;
   background-image: url("../images/Placeholder1200x360.png") ;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
   .titlePortada {
     padding: 86px 55px 86px 763px;
@@ -37,12 +39,14 @@
       font-weight: 600;
       font-size: 16px;
       color: #000000;
-      padding: 12px 12px 6px 12px;
+      padding: 18px 12px 6px 12px;
       margin: 0px;
     }
 
     img {
-      width: 300px;
+      width: 360px;
+      border-radius: 20px 20px 0px 0px;
+      overflow: hidden;
     }
 
     .verMas {
@@ -54,9 +58,9 @@
       border-radius: 18px;
       color: white;
       box-sizing: border-box;
-      margin: 0px 17px 16px 228px;
+      margin: 12px 17px 0px 228px;
+      padding-top: 8px;
       text-align: center;
-      padding: 12px;
     }
   }
 }
@@ -107,7 +111,6 @@
 
   figure {
     display: inline-block;
-    margin: 15px;
   }
 
   .topLeidosText {

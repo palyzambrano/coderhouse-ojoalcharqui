@@ -1,4 +1,5 @@
 // Externos
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,600;1,300;1,600&family=Montserrat:wght@300;400;600;700&display=swap');
 
 // Reutilizables
@@ -217,6 +218,8 @@ figure {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 50px;
+
 }
 
 .bordeImagen{
