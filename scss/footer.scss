@@ -3,6 +3,8 @@ footer {
   color: $white;
   background-color: $colorPrimario;
   display: flex;
+
+  div{
   justify-content: space-between;
 
   figure {
@@ -28,3 +30,5 @@ footer {
     }
   }
 }
+
+

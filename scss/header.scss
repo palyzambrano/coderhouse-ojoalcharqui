@@ -19,7 +19,7 @@ header {
     figure {
       width: 110px;
       height: 58px;
-      margin: 0px;
+      margin: 10px 0px auto 20px;
       display: flex;
     }
   
@@ -37,6 +37,10 @@ header {
       margin: 16px;
       display: inline-block;
     }
+
+    li:hover{
+      background-color: black;
+    }
   
     a {
       @include text-bold();
@@ -45,5 +49,10 @@ header {
       font-size: 14px;
       text-decoration: none;
     }
+
+    a:hover{
+      color: $colorPrimario;
+    }
   }
+
 }
