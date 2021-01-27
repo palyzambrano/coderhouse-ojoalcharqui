@@ -66,7 +66,7 @@ ul {
 }
 
 form {
-  width: 400px;
+  width: 410px;
   margin: 0 25px 25px 15px;
   display: inline-block;
 
@@ -85,13 +85,14 @@ form {
   input,
   select,
   textarea {
-    border-color: $gray;
+    border-color: #00000038;
     border-style: solid;
     border-radius: 20px;
     border-width: 1px;
     display: inline-block;
     outline: none;
-    width: 360px;
+    width: 400px;
+    box-shadow: 0 2px 6px #00000038;
 
     &:focus {
       border-color: $colorPrimario;
@@ -212,7 +213,7 @@ figure {
 }
 
 .parrafoSection {
-  width: 600px;
+  width: 500px;
   margin: 0 25px;
   color: #073E3E;
   font-family: 'Cormorant Infant', serif;
@@ -226,7 +227,7 @@ figure {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 
@@ -265,9 +266,23 @@ figure {
   border-style: solid;
   border-color: #073E3E;
   border-width: 4px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px #00000038;
 
-  a:hover {
-    color: blueviolet;
+  &:hover {
+    background-color: #073E3E;
+
+    a {
+      color: white;
+    }
+  }
+
+  a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
   }
 }
 

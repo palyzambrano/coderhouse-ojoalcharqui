@@ -5,6 +5,30 @@
 
   #eventos {
     margin-right: 2rem;
+
+    th {
+      font-weight: 300;
+      font-size: 14px;
+    }
+
+    td {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .verMas {
+      font-weight: 600;
+      font-size: 14px;
+      height: 38px;
+      width: 120px;
+      background-color: #073E3E;
+      border-radius: 18px;
+      color: white;
+      box-sizing: border-box;
+      margin: 12px 17px 0 228px;
+      padding-top: 8px;
+      text-align: center;
+    }
   }
 
   #anuncios-valla {

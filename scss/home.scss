@@ -3,8 +3,8 @@
   height: 360px;
   border-radius: 20px;
   background-image: url('../images/Placeholder1200x360.png');
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 
   .titlePortada {
     padding: 86px 55px 86px 763px;
@@ -13,6 +13,13 @@
     color: #073E3E;
     font-size: 60px;
   }
+}
+
+.titleNovedades {
+  font-weight: 600;
+  font-size: 36px;
+  color: #073E3E;
+  text-align: center;
 }
 
 .titleSection {
@@ -34,6 +41,10 @@
     border-radius: 20px;
     box-shadow: 0 3px 10px #00000038;
     display: inline-block;
+
+    &:hover {
+      box-shadow: 0 5px 10px $colorPrimario;
+    }
 
     .titleArticle {
       font-weight: 600;
@@ -68,7 +79,7 @@
 
 #anuncios {
   width: 600px;
-  height: 100%;
+  height: 855px;
   display: grid;
   justify-items: center;
   align-items: center;
@@ -104,6 +115,10 @@
   border-radius: 20px;
   box-shadow: 0 3px 10px #00000038;
   display: flex;
+
+  &:hover {
+    box-shadow: 0 5px 10px $colorPrimario;
+  }
 
   figure {
     display: inline-block;
