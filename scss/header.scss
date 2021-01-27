@@ -38,20 +38,20 @@ header {
       display: inline-block;
     }
 
-    li:hover{
-      background-color: black;
-    }
-  
-    a {
+    .menu {
       @include text-bold();
 
       color: $colorPrimario;
       font-size: 14px;
       text-decoration: none;
+      padding: 12px;
     }
 
-    a:hover{
+    .menu:hover{
       color: $colorPrimario;
+      background-color:#D9D9D9;
+      border-radius: 20px;
+      justify-content: center;
     }
   }
 
