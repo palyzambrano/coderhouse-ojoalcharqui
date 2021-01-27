@@ -1,112 +1,146 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ojo al charqui / Eventos</title>
-  <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="../index.html">
-        <figure>
-          <img src="../images/Logo-OACH.png" alt="Logo">
-        </figure>
-      </a>
-      <div class="btn-group">
-        <button
-          id="responsive-menu"
-          type="button"
-          class="btn btn-secondary dropdown-toggle"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <span class="hamburger-icon"></span>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-lg-end height-auto navigator">
-          <li><a href="./columnas.html">Columnas</a></li>
-          <li><a href="./eventos.html">Eventos</a></li>
-          <li><a href="./acerca.html">Acerca</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ojo al charqui / Eventos</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html">
+          <figure>
+            <img src="../images/Logo-OACH.png" alt="Logo" />
+          </figure>
+        </a>
+        <div class="btn-group">
+          <button
+            id="responsive-menu"
+            type="button"
+            class="btn btn-secondary dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="hamburger-icon"></span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end height-auto navigator">
+            <li><a href="./columnas.html">Columnas</a></li>
+            <li><a href="./eventos.html">Eventos</a></li>
+            <li><a href="./acerca.html">Acerca</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <ul>
+          <li><a class="menu" href="./columnas.html">Columnas</a></li>
+          <li><a class="menu" href="./eventos.html">Eventos</a></li>
+          <li><a class="menu" href="./acerca.html">Acerca</a></li>
+          <li><a class="menu" href="./contacto.html">Contacto</a></li>
         </ul>
+      </nav>
+    </header>
+    <main id="eventos-seccion">
+      <h1 class="titlePage">Eventos</h1>
+      <div class="contenerPagina">
+        <table class="table" id="eventos">
+          <thead>
+            <tr>
+              <th scope="col">Evento</th>
+              <th scope="col">Dirección</th>
+              <th scope="col">Fecha</th>
+              <th scope="col">Hora</th>
+              <th scope="col">Organiza</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Workshop</td>
+              <td>CABA</td>
+              <td><time datetime="2021-02-20">20 Febrero 2021</time></td>
+              <td><time datetime="18:30">18:30</time></td>
+              <td>ojoalcharqui</td>
+            </tr>
+            <tr>
+              <td>Meetup</td>
+              <td>Online</td>
+              <td><time datetime="2021-03-14">14 Marzo 2021</time></td>
+              <td><time datetime="20:30">20:30</time></td>
+              <td>ojoalcharqui</td>
+            </tr>
+            <tr>
+              <td>Webinar</td>
+              <td>Online</td>
+              <td><time datetime="2021-06-17">17 Junio 2021</time></td>
+              <td><time datetime="20:30">20:30</time></td>
+              <td>ojoalcharqui</td>
+            </tr>
+            <tr>
+              <td>Meetup</td>
+              <td>Online</td>
+              <td><time datetime="2021-07-24">24 Julio 2021</time></td>
+              <td><time datetime="20:30">20:30</time></td>
+              <td>ojoalcharqui</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+      <div id="anuncios-valla">
+        <aside class="anuncios">
+          <img
+            id="a1"
+            class="bordeImagen"
+            src="../images/Placeholder200x200.png"
+            alt="Publicidad"
+          />
+          <img
+            id="a2"
+            class="bordeImagen"
+            src="../images/Placeholder200x200.png"
+            alt="Publicidad"
+          />
+          <img
+            id="a3"
+            class="bordeImagen"
+            src="../images/Placeholder200x400.png"
+            alt="Publicidad"
+          />
+        </aside>
+        <aside class="anuncios reverse">
+          <img
+            id="a1"
+            class="bordeImagen"
+            src="../images/Placeholder200x200.png"
+            alt="Publicidad"
+          />
+          <img
+            id="a2"
+            class="bordeImagen"
+            src="../images/Placeholder200x200.png"
+            alt="Publicidad"
+          />
+          <img
+            id="a3"
+            class="bordeImagen"
+            src="../images/Placeholder200x400.png"
+            alt="Publicidad"
+          />
+        </aside>
+      </div>
+    </main>
+    <footer>
+      <img src="../images/PlaceLogo.png" alt="Logo" />
+      <p>&copy; 2020 Paulina Zambrano</p>
+      <p>contacto@ojoalcharqui.com</p>
       <ul>
-        <li><a class="menu" href="./columnas.html">Columnas</a></li>
-        <li><a class="menu" href="./eventos.html">Eventos</a></li>
-        <li><a class="menu" href="./acerca.html">Acerca</a></li>
-        <li><a class="menu" href="./contacto.html">Contacto</a></li>
+        <li>fecebook</li>
+        <li>instagram</li>
+        <li>twitter</li>
       </ul>
-    </nav>
-  </header>
-  <main id="eventos-seccion">
-    <h1 class="titlePage">Eventos</h1>
-    <div class="contenerPagina">
-      <table class="table" id="eventos">
-        <thead>
-          <tr>
-            <th scope="col">Evento</th>
-            <th scope="col">Dirección</th>
-            <th scope="col">Fecha</th>
-            <th scope="col">Hora</th>
-            <th scope="col">Organiza</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Workshop</td>
-            <td>CABA</td>
-            <td><time datetime="2021-02-20">20 Febrero 2021</time></td>
-            <td><time datetime="18:30">18:30</time></td>
-            <td>ojoalcharqui</td>
-          </tr>
-          <tr>
-            <td>Meetup</td>
-            <td>Online</td>
-            <td><time datetime="2021-03-14">14 Marzo 2021</time></td>
-            <td><time datetime="20:30">20:30</time></td>
-            <td>ojoalcharqui</td>
-          </tr>
-          <tr>
-            <td>Webinar</td>
-            <td>Online</td>
-            <td><time datetime="2021-06-17">17 Junio 2021</time></td>
-            <td><time datetime="20:30">20:30</time></td>
-            <td>ojoalcharqui</td>
-          </tr>
-          <tr>
-            <td>Meetup</td>
-            <td>Online</td>
-            <td><time datetime="2021-07-24">24 Julio 2021</time></td>
-            <td><time datetime="20:30">20:30</time></td>
-            <td>ojoalcharqui</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div id="anuncios-valla">
-      <aside class="anuncios">
-        <img id="a1" class="bordeImagen" src="../images/Placeholder200x200.png" alt="Publicidad">
-        <img id="a2" class="bordeImagen" src="../images/Placeholder200x200.png" alt="Publicidad">
-        <img id="a3" class="bordeImagen" src="../images/Placeholder200x400.png" alt="Publicidad">
-      </aside>
-      <aside class="anuncios reverse">
-        <img id="a1" class="bordeImagen" src="../images/Placeholder200x200.png" alt="Publicidad">
-        <img id="a2" class="bordeImagen" src="../images/Placeholder200x200.png" alt="Publicidad">
-        <img id="a3" class="bordeImagen" src="../images/Placeholder200x400.png" alt="Publicidad">
-      </aside>
-    </div>
-  </main>
-  <footer>
-    <img src="../images/PlaceLogo.png" alt="Logo">
-    <p>&copy; 2020 Paulina Zambrano</p>
-    <p>contacto@ojoalcharqui.com</p>
-    <ul>
-      <li>fecebook</li>
-      <li>instagram</li>
-      <li>twitter</li>
-    </ul>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</body> 
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

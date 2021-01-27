@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass scss/style.scss css/style.css --output-style compressed",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "lint": "npx stylelint --fix \"./scss/*.scss\""
+    "lint": "prettier --write . && stylelint --fix \"./scss/*.scss\""
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "nodemon": "^2.0.6"
   },
   "devDependencies": {
+    "prettier": "2.2.1",
     "stylelint": "^13.9.0",
     "stylelint-config-standard": "^20.0.0"
   }

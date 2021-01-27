@@ -1,72 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ojo al charqui / Columnas</title>
-  <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="../index.html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ojo al charqui / Columnas</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html">
+          <figure>
+            <img src="../images/Logo-OACH.png" alt="Logo" />
+          </figure>
+        </a>
+        <div class="btn-group">
+          <button
+            id="responsive-menu"
+            type="button"
+            class="btn btn-secondary dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="hamburger-icon"></span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end height-auto navigator">
+            <li><a href="./columnas.html">Columnas</a></li>
+            <li><a href="./eventos.html">Eventos</a></li>
+            <li><a href="./acerca.html">Acerca</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <ul>
+          <li><a class="menu" href="./columnas.html">Columnas</a></li>
+          <li><a class="menu" href="./eventos.html">Eventos</a></li>
+          <li><a class="menu" href="./acerca.html">Acerca</a></li>
+          <li><a class="menu" href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="titlePage">Columnas</h1>
+      <div class="contenerPagina">
         <figure>
-          <img src="../images/Logo-OACH.png" alt="Logo">
+          <img
+            class="encuadreImagen"
+            src="../images/Img Sections/f9347c98a6dc0292f0548f9e2a4f6ef2.jpg"
+            alt="ilustracion"
+          />
         </figure>
-      </a>
-      <div class="btn-group">
-        <button
-          id="responsive-menu"
-          type="button"
-          class="btn btn-secondary dropdown-toggle"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <span class="hamburger-icon"></span>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-lg-end height-auto navigator">
-          <li><a href="./columnas.html">Columnas</a></li>
-          <li><a href="./eventos.html">Eventos</a></li>
-          <li><a href="./acerca.html">Acerca</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
+        <div>
+          <ul class="contenedorColumnas">
+            <li class="columnasArticulos">
+              <a href="./articulos.html">Diseño y creatividad</a>
+            </li>
+            <li class="columnasArticulos">
+              <a href="./articulos.html">Tecnologia y ciencia</a>
+            </li>
+            <li class="columnasArticulos">
+              <a href="./articulos.html">Libros y peliculas</a>
+            </li>
+            <li class="columnasArticulos">
+              <a href="./articulos.html">Musica</a>
+            </li>
+            <li class="columnasArticulos">
+              <a href="./articulos.html">Viajes y entretenimiento</a>
+            </li>
+            <li class="columnasArticulos">
+              <a href="./articulos.html">Tendencia</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </main>
+    <footer>
+      <img src="../images/PlaceLogo.png" alt="Logo" />
+      <p>&copy; 2020 Paulina Zambrano</p>
+      <p>contacto@ojoalcharqui.com</p>
       <ul>
-        <li><a class="menu" href="./columnas.html">Columnas</a></li>
-        <li><a class="menu" href="./eventos.html">Eventos</a></li>
-        <li><a class="menu" href="./acerca.html">Acerca</a></li>
-        <li><a class="menu" href="./contacto.html">Contacto</a></li>
+        <li>fecebook</li>
+        <li>instagram</li>
+        <li>twitter</li>
       </ul>
-    </nav>
-  </header>
-  <main>
-    <h1 class="titlePage">Columnas</h1>
-    <div class="contenerPagina">
-      <figure>
-        <img class="encuadreImagen" src="../images/Img Sections/f9347c98a6dc0292f0548f9e2a4f6ef2.jpg" alt="ilustracion">
-      </figure>
-      <div>
-        <ul class="contenedorColumnas">
-          <li class="columnasArticulos"><a href="./articulos.html">Diseño y creatividad</a></li>
-          <li class="columnasArticulos"><a href="./articulos.html">Tecnologia y ciencia</a></li>
-          <li class="columnasArticulos"><a href="./articulos.html">Libros y peliculas</a></li>
-          <li class="columnasArticulos"><a href="./articulos.html">Musica</a></li>
-          <li class="columnasArticulos"><a href="./articulos.html">Viajes y entretenimiento</a></li>
-          <li class="columnasArticulos"><a href="./articulos.html">Tendencia</a></li>
-        </ul>
-      </div> 
-    </div>   
-  </main>
-  <footer>
-    <img src="../images/PlaceLogo.png" alt="Logo">
-    <p>&copy; 2020 Paulina Zambrano</p>
-    <p>contacto@ojoalcharqui.com</p>
-    <ul>
-      <li>fecebook</li>
-      <li>instagram</li>
-      <li>twitter</li>
-    </ul>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</body>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
