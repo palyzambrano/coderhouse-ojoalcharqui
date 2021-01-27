@@ -6,7 +6,7 @@
   #eventos {
     margin-right: 2rem;
   }
-  
+
   #anuncios-valla {
     display: flex;
     justify-content: space-evenly;
@@ -19,11 +19,10 @@
       width: 360px;
       margin: 0 1rem;
       grid-gap: 24px;
-      grid-template-areas: 
-        "i1 i1 i3 i3"
-        "i1 i1 i3 i3"
-        "i2 i2 i3 i3"
-        "i2 i2 i3 i3";
+      grid-template-areas: 'i1 i1 i3 i3'
+        'i1 i1 i3 i3'
+        'i2 i2 i3 i3'
+        'i2 i2 i3 i3';
 
       #a1 {
         grid-area: i1;
@@ -38,11 +37,10 @@
       }
 
       &.reverse {
-        grid-template-areas: 
-          "i3 i3 i1 i1"
-          "i3 i3 i1 i1"
-          "i3 i3 i2 i2"
-          "i3 i3 i2 i2";
+        grid-template-areas: 'i3 i3 i1 i1'
+          'i3 i3 i1 i1'
+          'i3 i3 i2 i2'
+          'i3 i3 i2 i2';
       }
     }
   }

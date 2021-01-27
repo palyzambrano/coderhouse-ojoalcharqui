@@ -2,7 +2,7 @@
   width: 1200px;
   height: 360px;
   border-radius: 20px;
-  background-image: url("../images/Placeholder1200x360.png") ;
+  background-image: url('../images/Placeholder1200x360.png');
   margin-top: 50px;
   margin-bottom: 50px;
 
@@ -10,7 +10,7 @@
     padding: 86px 55px 86px 763px;
     font-weight: 700;
     text-align: right;
-    color: #073e3e;
+    color: #073E3E;
     font-size: 60px;
   }
 }
@@ -18,7 +18,7 @@
 .titleSection {
   font-weight: 600;
   font-size: 36px;
-  color: #073e3e;
+  color: #073E3E;
 }
 
 .contenedorNovedades {
@@ -30,9 +30,9 @@
     width: 360px;
     height: 360px;
     margin: 12px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     border-radius: 20px;
-    box-shadow: 0px 3px 10px #00000038;
+    box-shadow: 0 3px 10px #00000038;
     display: inline-block;
 
     .titleArticle {
@@ -40,26 +40,26 @@
       font-size: 16px;
       color: #000000;
       padding: 18px 12px 6px 12px;
-      margin: 0px;
+      margin: 0;
     }
 
     img {
       width: 360px;
       height: 190px;
-      border-radius: 20px 20px 0px 0px;
+      border-radius: 20px 20px 0 0;
       overflow: hidden;
     }
 
     .verMas {
       font-weight: 600;
       font-size: 14px;
-      height: 38px; 
+      height: 38px;
       width: 120px;
-      background-color:#073e3e;
+      background-color: #073E3E;
       border-radius: 18px;
       color: white;
       box-sizing: border-box;
-      margin: 12px 17px 0px 228px;
+      margin: 12px 17px 0 228px;
       padding-top: 8px;
       text-align: center;
     }
@@ -67,46 +67,45 @@
 }
 
 #anuncios {
-    width: 600px;
-    height: 100%;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-gap: 24px;
-    grid-template-areas: 
-      "i1 i3"
-      "i2 i3"
-      "i4 i4";
-  
+  width: 600px;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 24px;
+  grid-template-areas: 'i1 i3'
+    'i2 i3'
+    'i4 i4';
+
   #a1 {
     grid-area: i1;
   }
-  
+
   #a2 {
     grid-area: i2;
   }
-  
+
   #a3 {
     grid-area: i3;
   }
-  
+
   #a4 {
     grid-area: i4;
   }
-  
 }
+
 .cardTopLeidos {
   width: 550px;
   height: 150px;
-  margin: 12px 0px;
-  padding: 0px;
+  margin: 12px 0;
+  padding: 0;
   border-radius: 20px;
-  box-shadow: 0px 3px 10px #00000038;
+  box-shadow: 0 3px 10px #00000038;
   display: flex;
 
-  figure  {
+  figure {
     display: inline-block;
     margin: 1rem;
   }
@@ -121,7 +120,7 @@
     font-weight: 300;
     font-size: 14px;
     text-align: right;
-    color: #073e3e;
+    color: #073E3E;
     display: block;
     margin-top: 8px;
   }
@@ -131,6 +130,6 @@
     font-size: 16px;
     color: #000000;
     padding: 16px 12px 6px 12px;
-    margin: 0px;
+    margin: 0;
   }
 }

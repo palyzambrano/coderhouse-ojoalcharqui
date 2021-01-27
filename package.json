@@ -7,7 +7,8 @@
     "serve": "npx http-server -p 8080",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass scss/style.scss css/style.css --output-style compressed",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "lint": "npx stylelint --fix \"./scss/*.scss\""
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
   "dependencies": {
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "stylelint": "^13.9.0",
+    "stylelint-config-standard": "^20.0.0"
   }
 }

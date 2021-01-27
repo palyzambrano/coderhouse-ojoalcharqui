@@ -18,25 +18,26 @@
 @import './home.scss';
 
 // General
+
 .height-auto {
   height: auto;
 }
 
 body {
-  font-family: 'Montserrat',sans-serif;
-  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 main {
-  margin: 0px 120px;
+  margin: 0 120px;
   min-height: calc(100vh - 226px);
 }
 
 fieldset {
   height: 45px;
   border-style: none;
-  padding: 0px;
-  margin: 12px 0px;
+  padding: 0;
+  margin: 12px 0;
 }
 
 footer {
@@ -48,6 +49,7 @@ footer {
 }
 
 ul {
+
   li {
     padding: 12px;
     margin: 16px;
@@ -65,7 +67,7 @@ ul {
 
 form {
   width: 400px;
-  margin: 0px 25px 25px 15px;
+  margin: 0 25px 25px 15px;
   display: inline-block;
 
   label {
@@ -73,14 +75,16 @@ form {
 
     color: $colorPrimario;
     display: inline-block;
-    margin: 24px 12px 6px 0px;
+    margin: 24px 12px 6px 0;
 
-    &[for=aceptar] {
+    &[for = aceptar] {
       display: inline-block;
     }
   }
 
-  input, select, textarea {
+  input,
+  select,
+  textarea {
     border-color: $gray;
     border-style: solid;
     border-radius: 20px;
@@ -98,9 +102,9 @@ form {
   input {
     height: 45px;
     box-sizing: border-box;
-    padding: 0px 12px;
+    padding: 0 12px;
 
-    &[type=checkbox] {
+    &[type = checkbox] {
       width: 24px;
       height: 24px;
       border-color: $colorPrimario;
@@ -108,7 +112,8 @@ form {
       margin: 16px 12px;
     }
 
-    &[type=reset], &[type=submit] {
+    &[type = reset],
+    &[type = submit] {
       @include text-bold();
 
       font-size: 16px;
@@ -116,24 +121,25 @@ form {
       width: 168px;
       height: 45px;
       background-color: $colorPrimario;
-      margin: 12px 24px 12px 0px;
-      padding: 0px;
+      margin: 12px 24px 12px 0;
+      padding: 0;
       display: inline;
     }
   }
 
   select {
     height: 45px;
-    padding: 0px 12px;
+    padding: 0 12px;
   }
 
   textarea {
     height: 110px;
-    margin: 0px;
-  }  
+    margin: 0;
+  }
 }
 
 .navigator {
+
   li {
     display: block;
     width: 100%;
@@ -154,15 +160,15 @@ form {
 
 tr th {
   font-weight: 600;
-  color: #073e3e;
+  color: #073E3E;
 }
 
 tr td {
-  color: #073e3e;
+  color: #073E3E;
 }
 
 figure {
-  margin: 0px;
+  margin: 0;
 }
 
 .hamburger-icon {
@@ -180,7 +186,7 @@ figure {
 
 .titlePage {
   font-weight: 700;
-  color: #073e3e;
+  color: #073E3E;
   font-size: 46px;
   text-align: center;
   margin-top: 55px;
@@ -192,24 +198,23 @@ figure {
   font-weight: 300;
   font-size: 16px;
   color: #000000;
-  padding: 6px 12px 0px 12px;
-  margin: 0px;
+  padding: 6px 12px 0 12px;
+  margin: 0;
 }
 
 .titlePage {
   font-weight: 700;
-  color: #073e3e;
+  color: #073E3E;
   font-size: 46px;
   text-align: center;
   margin-top: 55px;
   margin-bottom: 55px;
 }
 
-
 .parrafoSection {
   width: 600px;
-  margin: 0px 25px;
-  color: #073e3e;
+  margin: 0 25px;
+  color: #073E3E;
   font-family: 'Cormorant Infant', serif;
   font-size: 16px;
   line-height: 1.5rem;
@@ -223,25 +228,24 @@ figure {
   justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 50px;
-
 }
 
-.bordeImagen{
+.bordeImagen {
   border-radius: 20px;
 }
 
 .encuadreImagen {
   border-radius: 20px;
-  margin: 0px 25px;
+  margin: 0 25px;
 }
 
 .textContact {
-width: 400px;
-margin: 0px 25px;
-color: #073e3e;
-font-size: 16px;
-line-height: 1.5rem;
-display: inline-block;
+  width: 400px;
+  margin: 0 25px;
+  color: #073E3E;
+  font-size: 16px;
+  line-height: 1.5rem;
+  display: inline-block;
 }
 
 .contenedorColumnas {
@@ -256,18 +260,19 @@ display: inline-block;
   display: flex;
   width: 228px;
   height: 66px;
-  padding: 0px;
+  padding: 0;
   border-radius: 33px;
   border-style: solid;
-  border-color: #073e3e;
+  border-color: #073E3E;
   border-width: 4px;
 
   a:hover {
-    color:blueviolet;
+    color: blueviolet;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width : 600px) {
+
   main {
     margin: 0 1rem;
   }
@@ -285,7 +290,7 @@ display: inline-block;
   }
 
   #eventos {
-    font-size: .9rem;
+    font-size: 0.9rem;
     overflow-x: auto;
     margin-right: 0;
     max-width: 300px;
@@ -304,7 +309,7 @@ display: inline-block;
     box-sizing: border-box;
     width: 100%;
     color: white;
-    background-color: #073e3e;
+    background-color: #073E3E;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -317,24 +322,24 @@ display: inline-block;
 
   .contenedorColumnas {
     justify-content: center;
-    padding: 0px;
+    padding: 0;
   }
 
   .parrafoSection {
     width: 300px;
-    margin: 0px;
+    margin: 0;
   }
 
   .contenedorNovedades {
     width: auto;
-    }
-
-  .verMas {
-    margin:12px;
   }
 
-  #anuncios{
+  .verMas {
+    margin: 12px;
+  }
+
+  #anuncios {
     width: 350px;
-    height: 400px ;
+    height: 400px;
   }
 }
