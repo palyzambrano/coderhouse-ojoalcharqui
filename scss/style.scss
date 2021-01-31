@@ -29,8 +29,9 @@ body {
 }
 
 main {
-  margin: 0 120px;
+  margin: 0 auto;
   min-height: calc(100vh - 226px);
+  max-width: 1200px;
 }
 
 fieldset {
@@ -355,6 +356,5 @@ figure {
 
   #anuncios {
     width: 350px;
-    height: 400px;
   }
 }
