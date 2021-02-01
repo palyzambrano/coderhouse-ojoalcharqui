@@ -8,6 +8,7 @@ footer {
 
   .wrapper {
     @include safe-area;
+
     width: 100%;
 
     #contact {
@@ -24,7 +25,7 @@ footer {
         margin: 0;
         width: 120px;
       }
-    
+
       p {
         text-align: left;
       }
@@ -36,11 +37,11 @@ footer {
       #contact-email {
         width: 250px;
       }
-    
+
       ul {
         display: flex;
-        padding: 0px;
-    
+        padding: 0;
+
         li {
           align-items: center;
           border: 2px solid $white;
@@ -50,10 +51,10 @@ footer {
           height: 40px;
           margin-right: 1rem;
           width: 40px;
-    
+
           a {
             @include text-bold();
-    
+
             color: $colorPrimario;
             font-size: 14px;
             text-decoration: none;
@@ -74,9 +75,11 @@ footer {
     }
   }
 
-  @media only screen and (max-width: 600px) {
-    .wrapper{
-      #contact{
+  @media only screen and (max-width : 600px) {
+
+    .wrapper {
+
+      #contact {
         flex-direction: column;
         justify-content: center;
         align-items: center;
