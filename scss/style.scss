@@ -18,7 +18,6 @@
 @import './home.scss';
 
 // General
-
 .height-auto {
   height: auto;
 }
@@ -39,31 +38,6 @@ fieldset {
   border-style: none;
   padding: 0;
   margin: 12px 0;
-}
-
-footer {
-  width: 100%;
-  color: $white;
-  background-color: $colorPrimario;
-  display: flex;
-  justify-content: space-between;
-}
-
-ul {
-
-  li {
-    padding: 12px;
-    margin: 16px;
-    display: inline-block;
-
-    a {
-      @include text-bold();
-
-      color: $colorPrimario;
-      font-size: 14px;
-      text-decoration: none;
-    }
-  }
 }
 
 form {
@@ -318,22 +292,6 @@ figure {
 
   header nav ul {
     display: none;
-  }
-
-  footer {
-    align-items: center;
-    box-sizing: border-box;
-    width: 100%;
-    color: white;
-    background-color: #073E3E;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
-  }
-
-  footer img {
-    margin-bottom: 1rem;
   }
 
   .contenedorColumnas {
