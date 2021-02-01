@@ -23,7 +23,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       // pisa el "d-block" de bootstrap para centrar
-      // el texto. NO BORRAR O TE ECHAMOS
+      // el texto. NO BORRAR 
       display: flex !important;
       justify-content: center;
       height: 500px;
@@ -60,12 +60,22 @@
   font-size: 36px;
   color: #073E3E;
   text-align: center;
+
+  @media only screen and (max-width : 600px) {
+    font-size: 24px;
+    margin-top: 36px;
+  }
 }
 
 .titleSection {
   font-weight: 600;
   font-size: 36px;
   color: #073E3E;
+
+  @media only screen and (max-width : 600px) {
+    font-size: 24px;
+    margin-top: 36px;
+  }
 }
 
 .contenedorNovedades {
@@ -137,21 +147,56 @@
 
   #a1 {
     grid-area: i1;
+    background-image: url(../images/Anuncios/A1.jpg);
+    background-position: center;
+    background-size: contain;
   }
 
   #a2 {
     grid-area: i2;
+    background-image: url(../images/Anuncios/A2.jpg);
+    background-position: center;
+    background-size: contain;
   }
 
   #a3 {
     grid-area: i3;
+    background-image: url(../images/Anuncios/A3.jpg);
+    background-position: center;
+    background-size: contain;
   }
 
   #a4 {
     grid-area: i4;
+    background-image: url(../images/Anuncios/A4.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
   @media only screen and (max-width : 600px) {
+    width: 360px;
+    height: 513px;
+    grid-gap: 12px;
+
+    #a1 {
+      width: 174px ;
+      height: 163px;
+    }
+
+    #a2{
+      width: 174px ;
+      height: 163px;
+    }
+
+    #a3 {
+      width: 174px;
+      height: 338px;
+    }
+
+    #a4 {
+      width: 360px;
+      height: 163px;
+    }
   }
 }
 
@@ -171,6 +216,7 @@
   figure {
     display: inline-block;
     margin: 1rem;
+
   }
 
   .topLeidosText {
@@ -186,6 +232,7 @@
     color: #073E3E;
     display: block;
     margin-top: 8px;
+    margin-right: 10px;
   }
 
   .titleArticle {
@@ -195,4 +242,29 @@
     padding: 16px 12px 6px 12px;
     margin: 0;
   }
-}
+
+  @media only screen and (max-width : 600px) {
+    width: auto;
+    height: 150px;
+    justify-content: center;
+    margin: 1rem 0;
+
+
+    .topLeidosText{
+      width: 220px;
+      padding: 0px;
+      margin: 0px;
+      line-height: 1.2rem;
+    }
+
+    .titleArticle{
+    padding: 8px 10px 4px 10px;
+    font-size: 14px;
+    }
+
+    .timeArticle {
+      font-size: 12px;
+      margin-right: 12px;
+    } 
+  }
+}  
