@@ -7,6 +7,8 @@
     text-align: right;
     color: #FFFFFF;
     font-size: 60px;
+    text-shadow: 1px 1px 2px $colorPrimario;
+    margin: 12px;
 
     @media only screen and (max-width : 600px) {
       font-size: 2.5rem;
@@ -29,15 +31,15 @@
       height: 500px;
 
       &.s1 {
-        background-image: url('https://cdna.artstation.com/p/assets/images/images/000/931/372/large/andrew-trabbold-as-post-003.jpg?1436383975');
+        background-image: url('../images/ImgPortada/Portada1.jpg');
       }
 
       &.s2 {
-        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcnet1.cbsistatic.com%2Fimg%2FWWHQFn0IL1mRR8y53HR7SMpdjwk%3D%2F2020%2F07%2F02%2F84a6a59b-9199-4fc6-aba2-432cb58e22b1%2Fart-of-mandalorian-tall-0990.jpg');
+        background-image: url('../images/ImgPortada/Portada2.jpg');
       }
 
       &.s3 {
-        background-image: url('https://i.pinimg.com/originals/e3/84/fb/e384fb26149a99dbed4b416d6a846cd6.jpg');
+        background-image: url('../images/ImgPortada/Portada3.jpg');
       }
     }
   }
@@ -94,6 +96,7 @@
 
     &:hover {
       box-shadow: 0 5px 10px $colorPrimario;
+      transition: 0.3s;
     }
 
     .titleArticle {
@@ -181,6 +184,30 @@
     height: 100%;
   }
 
+  .anuncio {
+    overflow: hidden;
+
+    h3 {
+      border-radius: 20px;
+      opacity: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      height: 100%;
+      transition: 0.2s;
+    }
+
+    &:hover {
+
+      h3 {
+        background-color: #333333AA;
+        color: #FFFFFF;
+        opacity: 1;
+      }
+    }
+  }
+
   @media only screen and (max-width : 600px) {
     width: 360px;
     height: 513px;
@@ -219,6 +246,7 @@
 
   &:hover {
     box-shadow: 0 5px 10px $colorPrimario;
+    transition: 0.3s;
   }
 
   figure {
