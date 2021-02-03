@@ -31,12 +31,12 @@ header {
       margin: 0;
       display: flex;
       flex-direction: row;
-    }
 
-    li {
-      padding: 12px;
-      margin: 16px;
-      display: inline-block;
+      li {
+        padding: 12px;
+        margin: 16px;
+        display: inline-block;
+      }
     }
 
     .menu {
@@ -53,6 +53,31 @@ header {
       background-color: #D9D9D9;
       border-radius: 20px;
       justify-content: center;
+    }
+  }
+
+  .navigator {
+    &.dropdown-menu {
+      padding: 0;
+      overflow: hidden;
+
+      li {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+
+        a {
+          color: $colorPrimario;
+          display: inline-block;
+          padding: 12px;
+          height: 100%;
+          width: 100%;
+
+          &:active, &:hover {
+            background-color: #D9D9D9;
+          }  
+        }
+      }
     }
   }
 }
