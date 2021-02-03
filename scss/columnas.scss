@@ -4,10 +4,8 @@
   border-radius: 20px;
   margin: 0 25px;
 
-
   @media only screen and (max-width : 600px) {
     width: 350px;
-    
   }
 }
 
@@ -15,8 +13,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 
   .columnasArticulos {
     align-items: center;

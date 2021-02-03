@@ -23,7 +23,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       // pisa el "d-block" de bootstrap para centrar
-      // el texto. NO BORRAR 
+      // el texto. NO BORRAR
       display: flex !important;
       justify-content: center;
       height: 500px;
@@ -130,7 +130,6 @@
     overflow-x: auto;
     overflow-y: hidden;
   }
-
 }
 
 #anuncios {
@@ -188,12 +187,12 @@
     grid-gap: 12px;
 
     #a1 {
-      width: 174px ;
+      width: 174px;
       height: 163px;
     }
 
-    #a2{
-      width: 174px ;
+    #a2 {
+      width: 174px;
       height: 163px;
     }
 
@@ -225,7 +224,6 @@
   figure {
     display: inline-block;
     margin: 1rem;
-
   }
 
   .topLeidosText {
@@ -258,22 +256,21 @@
     justify-content: center;
     margin: 1rem 0;
 
-
-    .topLeidosText{
+    .topLeidosText {
       width: 220px;
-      padding: 0px;
-      margin: 0px;
+      padding: 0;
+      margin: 0;
       line-height: 1.2rem;
     }
 
-    .titleArticle{
-    padding: 8px 10px 4px 10px;
-    font-size: 14px;
+    .titleArticle {
+      padding: 8px 10px 4px 10px;
+      font-size: 14px;
     }
 
     .timeArticle {
       font-size: 12px;
       margin-right: 12px;
-    } 
+    }
   }
-}  
+}

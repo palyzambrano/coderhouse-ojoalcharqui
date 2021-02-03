@@ -77,7 +77,6 @@ form {
     height: 110px;
     margin: 0;
   }
-
 }
 
 .cajasContact {
@@ -88,7 +87,6 @@ form {
   justify-content: flex-start;
   flex-direction: column;
 
-
   .ilustration {
     box-shadow: 0 3px 10px #00000038;
     width: 500px;
@@ -96,13 +94,12 @@ form {
     margin: 25px;
     display: flex;
     justify-content: center;
-  
   }
 }
 
 @media only screen and (max-width : 600px) {
 
-  form{
+  form {
     width: 350px;
 
     input,
@@ -110,17 +107,17 @@ form {
     textarea {
       width: 350px;
     }
-  }  
+  }
 
-  .cajasContact{
+  .cajasContact {
     width: auto;
     align-items: center;
-    
-    p{
+
+    p {
       text-align: center;
     }
 
-    .ilustration{
+    .ilustration {
       width: 350px;
     }
   }

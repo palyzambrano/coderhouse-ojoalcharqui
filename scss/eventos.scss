@@ -4,6 +4,9 @@
   margin-bottom: 1rem;
 
   #eventos {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px #00000038;
     margin-right: 2rem;
 
     .verMas {
@@ -21,41 +24,13 @@
     }
   }
 
-  #anuncios-valla {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+  @media only screen and (max-width : 600px) {
 
-    .anuncios {
-      display: grid;
-      justify-items: center;
-      align-items: center;
-      width: 360px;
-      margin: 0 1rem;
-      grid-gap: 24px;
-      grid-template-areas: 'i1 i1 i3 i3'
-        'i1 i1 i3 i3'
-        'i2 i2 i3 i3'
-        'i2 i2 i3 i3';
-
-      #a1 {
-        grid-area: i1;
-      }
-
-      #a2 {
-        grid-area: i2;
-      }
-
-      #a3 {
-        grid-area: i3;
-      }
-
-      &.reverse {
-        grid-template-areas: 'i3 i3 i1 i1'
-          'i3 i3 i1 i1'
-          'i3 i3 i2 i2'
-          'i3 i3 i2 i2';
-      }
+    #eventos {
+      font-size: 12px;
+      margin-right: 0;
+      overflow-x: auto;
+      width: 320px;
     }
   }
 }
